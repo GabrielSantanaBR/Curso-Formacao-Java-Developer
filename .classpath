@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Estruturas-Condicionais/src"/>
+	<classpathentry kind="src" path="java-anatomia-de-clases/src"/>
+	<classpathentry kind="src" path="Programação Orientada a Objetos em Java/Classes/src"/>
+	<classpathentry kind="src" path="Programação Orientada a Objetos em Java/Package/src"/>
+	<classpathentry kind="src" path="Tratamento-de-Exceções/src"/>
+	<classpathentry kind="output" path="Estruturas-Condicionais/bin"/>
+</classpath>
