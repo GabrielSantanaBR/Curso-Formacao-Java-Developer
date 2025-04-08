@@ -1,48 +1,59 @@
-package lanchonete;
+package lanchonete.atendimento.cozinha; 
 
 public class Cozinheiro {
+    
     public void adicionarLancheNoBalcao() {
         System.out.println("ADCIONANDO LANCHE NATURAL");
     }
+
     public void adicionarSucoNoBalcao(){
         System.out.println("ADCIONANDO SUCO NO BALCÃO");
     }
+
     public void adcionarComboNoBalcao(){
         adicionarLancheNoBalcao();
         adicionarSucoNoBalcao();
+        prepararCombo(); 
     }
-    public void prepararLache(){
+
+    private void prepararLache(){
         System.out.println("PREPARANDO LACHE NATURAL");
     }
-    public void prepararVitamina(){
+
+    private void prepararVitamina(){
         System.out.println("PREPARANDO SUCO");
     }
+
     public void prepararCombo(){
         prepararLache();
         prepararVitamina();
     }
-    public void selecionarIngredientesLache(){
+
+    private void selecionarIngredientesLache(){
         System.out.println("SELECIONANDO INGREDIENTES DO LACHE NATURAL");
     }
-    public void SelecionarIngreidentesVitamina(){
+
+    private void selecionarIngreidentesVitamina(){
         System.out.println("SELECIONANDO INGREDIENTES DO SUCO");
     }
-    public void lavarIngredientes(){
+
+    private void lavarIngredientes(){
         System.out.println("LAVANDO IGREDIENTES");
     }
-    public void baterVitaminaLiquidificador(){
+
+    private void baterVitaminaLiquidificador(){
         System.out.println("BATENDO VITAMINA NO LIQUIDIFICADOR");
     }
-    public void fritaIngredientesLache(){
+
+    private void fritaIngredientesLache(){
         System.out.println("FRITANDO A CARNE E O OVO");
     }
-    public void pedirParaTrocarGas(Atendente meuAmigo){
+
+    private void pedirParaTrocarGas(Almoxarife meuAmigo){
         meuAmigo.trocarGas();
     }
-    public void pedirParaTrocarGas(Almoxarife meuAmigo){
-        meuAmigo.trocarGas();
-    }
-    public void pedirIgredientes(Almoxarife meuAmigo){
+
+    private void pedirIgredientes(Almoxarife meuAmigo){
         meuAmigo.entregarIngredientes();
     }
 }
